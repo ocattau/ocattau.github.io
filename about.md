@@ -11,5 +11,5 @@ Some information about you!
 
 ### Contact me
 
-[email@domain.com](mailto:ocattau@uw.edu)
+[ocattau@uw.edu](mailto:ocattau@uw.edu)
 [oliviacattau@gmail.com](mailto:oliviacattau@gmail.com)
