@@ -11,8 +11,15 @@ description: Staging for my Lab Notebook
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://pacifichybreed.com/wp-content/uploads/2019/11/olivia-1-300x300.jpg 
 
-#
-# Flags below are optional
+# List of links in the navigation bar
+navbar-links:
+  CV: "cv/Cattau_CV_2020.pdf"
+  About: "aboutme"
+  Lab Notebook: "notebook"
+  Resources:
+    - Beautiful Jekyll: "https://beautifuljekyll.com"
+    - Learn markdown: "https://www.markdowntutorial.com/"
+  Author's home: "https://deanattali.com"
 #
 
 # Includes an icon in the footer for each username you enter
