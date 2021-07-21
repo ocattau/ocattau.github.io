@@ -4,7 +4,6 @@ title: learning how to characterize larval/juvenile geoduck transccriptomes
 date: '2021-06-29'
 categories: geoduck
 tags: RNA-seq
-
 ---
 
 # 2021 May 12th 
