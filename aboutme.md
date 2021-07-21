@@ -1,6 +1,7 @@
 ---
 layout: page
-title: About
+title: Olivia Cattau
+subtitle: Graduate Student, SAFS
 permalink: /about/
 ---
 
