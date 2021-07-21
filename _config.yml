@@ -13,7 +13,7 @@ description: Steven Roberts' Lab UW
 
 # List of links in the navigation bar
 navbar-links:
-  CV: "cv/Coyle_CV_Nov_2020.pdf"
+  CV: "cv/Cattau_CV_July_2021.pdf"
   About: "aboutme"
   Lab Notebook: "notebook"
   Resources:
@@ -30,10 +30,10 @@ avatar: https://pacifichybreed.com/wp-content/uploads/2019/11/olivia-1-300x300.j
 footer-links:
   dribbble:
   email: ocattau@uw.edu
-  facebook:olivia cattau
+  facebook:
   flickr:
   github: ocattau
-  instagram:oliviacattau
+  instagram: 
   linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon
