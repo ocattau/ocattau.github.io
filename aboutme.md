@@ -18,7 +18,7 @@ Previous affliliations:
 
 ### More Information
 
-I have worked with all sorts of marine invertebrates from cephalopods, to echinoderms to mollosks. I consider myself an Environmental Biologist with a focus in marine invertebrates. 
+I have worked with all sorts of marine invertebrates from cephalopods, to echinoderms to mollusks. I consider myself an Environmental Biologist with a focus in marine invertebrates. 
 
 ### Contact me
 
