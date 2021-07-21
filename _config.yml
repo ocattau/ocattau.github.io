@@ -28,19 +28,41 @@ avatar: https://pacifichybreed.com/wp-content/uploads/2019/11/olivia-1-300x300.j
 
 # Includes an icon in the footer for each username you enter
 footer-links:
-  dribbble:
+  #dribbble:
   email: ocattau@uw.edu
-  facebook:
-  flickr:
+  #facebook:
+  #flickr:
   github: ocattau
-  instagram: 
-  linkedin:
-  pinterest:
-  rss: # just type anything here for a working RSS icon
-  twitter: 
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
+  instagram: olivia_cattau
+  #linkedin:
+  #pinterest:
+  #rss: # just type anything here for a working RSS icon
+  #twitter: 
+  #stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  #youtube: # channel/<your_long_string> or user/<user-name>
+  #googleplus: # anything in your profile username that comes after plus.google.com/
+  
+# Select which social network share links to show in posts
+share-links-active:
+  twitter: true
+  facebook: true
+  linkedin: true
+  vk: false
+  
+# How to display the link to your website in the footer
+# Remove this if you don't want a link in the footer
+url-pretty: "ocattau.github.io"
+
+navbar-col: "#EAEAEA"
+navbar-text-col: "#404040"
+navbar-border-col: "#DDDDDD"
+page-col: "#FFFFFF"
+text-col: "#404040"
+link-col: "#008AFF"
+hover-col: "#0085A1"
+footer-col: "#EAEAEA"
+footer-text-col: "#777777"
+footer-link-col: "#404040"
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
