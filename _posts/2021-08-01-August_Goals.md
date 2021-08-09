@@ -6,7 +6,7 @@ categories: updates, research
 tags: c. gigas, pacific oysters
 ---
 
-#August 2021 goals
+# August 2021 goals
 -finish procedure for Citrate-Synthase Assay, start testing samples when the kit arrives
 -plan for next experiment with Steven on oyster breeding
 -catch up on all coding homework
