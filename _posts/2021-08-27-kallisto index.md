@@ -29,6 +29,8 @@ srlab@roadrunner:~/anaconda2/bin$ kallisto \index -i ../transcriptome_v5.idx Pge
 [build] warning: clipped off poly-A tail (longer than 10)
         from 5780 target sequences
 [build] counting k-mers ... done.
+[build] target de Bruijn graph has 7419044 contigs and contains 374041821 k-mers 
+
 ```
 
 
