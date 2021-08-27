@@ -10,9 +10,8 @@ tags: transcriptome, p. generosa, index, kallisto
 
 ```{bash}
 srlab@roadrunner.fish.washington.edu
-```
 
-`srlab@roadrunner:~/anaconda2$ curl -O https://github.com/trinityrnaseq/trinityrnaseq/releases/download/v2.11.0/trinityrnaseq-v2.11.0.FULL.tar.gz --insecure -O https://gannet.fish.washington.edu/Atumefaciens/20191105_swoose_pgen_v074_renaming/Panopea-generosa-v1.0.fa`
+srlab@roadrunner:~/anaconda2$ curl -O https://github.com/trinityrnaseq/trinityrnaseq/releases/download/v2.11.0/trinityrnaseq-v2.11.0.FULL.tar.gz --insecure -O https://gannet.fish.washington.edu/Atumefaciens/20191105_swoose_pgen_v074_renaming/Panopea-generosa-v1.0.fa
 
 `srlab@roadrunner:~/anaconda2$ kallisto`
 
@@ -30,7 +29,7 @@ curl -O https://github.com/trinityrnaseq/trinityrnaseq/releases/download/v2.11.0
 [build] warning: clipped off poly-A tail (longer than 10)
         from 5780 target sequences
 [build] counting k-mers ... done.
-`
+```
 
 
 
