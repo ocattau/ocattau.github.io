@@ -1,6 +1,6 @@
 ---
 layout: post
-title: blast locally 
+title: Kallisto Index for P. generosa
 date: '2021-08-27'
 categories: index
 tags: test
