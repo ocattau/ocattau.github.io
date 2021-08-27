@@ -6,7 +6,7 @@ categories: index
 tags: test
 tags: transcriptome, p. generosa, index, kallisto
 ---
-#using Roadrunner for bulding a Kallisto index
+# using Roadrunner for bulding a Kallisto index
 
 'srlab@roadrunner.fish.washington.edu'
 
