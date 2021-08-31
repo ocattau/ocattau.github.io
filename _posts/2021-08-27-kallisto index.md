@@ -31,6 +31,15 @@ srlab@roadrunner:~/anaconda2/bin$ kallisto \index -i ../transcriptome_v5.idx Pge
 [build] counting k-mers ... done.
 [build] target de Bruijn graph has 7419044 contigs and contains 374041821 k-mers 
 
+TRANS_DATA=~anaconda2/bin
+
+srlab@roadrunner:~/anaconda2$ curl -O http://owl.fish.washington.edu/nightingales/P_generosa/Trueseq-stranded-mRNA-libraries-GeoRNA8-H1-NR021_S5_L001_R1_001.fastq.gz
+
+srlab@roadrunner:~/anaconda2$ curl -O http://owl.fish.washington.edu/nightingales/P_generosa/Trueseq-stranded-mRNA-libraries-GeoRNA8-H1-NR021_S5_L002_R2_001.fastq.gz
+
+kallisto quant -i $TRANS_DATA/transciptome_v5.idx -o $TRANS_DATA/.kallisto_out -b 100 Trueseq-stranded-mRNA-libraries-GeoRNA8-H1-NR021_S5_L001_R1_001.fastq  Trueseq-stranded-mRNA-libraries-GeoRNA8-H1-NR021_S5_L001_R2_001.fastq
+
+
 ```
 
 
