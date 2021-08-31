@@ -48,6 +48,16 @@ kallisto quant --plaintext -i transcriptome_v5.idx -o output_01 -b 100 Trueseq-s
 [index] number of targets: 1,363,959
 [index] number of k-mers: 374,041,821
 [index] number of equivalence classes: 4,408,869
+[quant] running in paired-end mode
+[quant] will process pair 1: Trueseq-stranded-mRNA-libraries-GeoRNA8-H1-NR021_S5_L001_R1_001.fastq.gz
+                             Trueseq-stranded-mRNA-libraries-GeoRNA8-H1-NR021_S5_L001_R2_001.fastq.gz
+[quant] finding pseudoalignments for the reads ... done
+[quant] processed 1 reads, 0 reads pseudoaligned
+[~warn] no reads pseudoaligned.
+[quant] estimated average fragment length: 0
+[   em] quantifying the abundances ... done
+[   em] the Expectation-Maximization algorithm ran for 52 rounds
+[~warn] Warning, zero reads pseudoaligned check your input files and index
 
 ```
 
