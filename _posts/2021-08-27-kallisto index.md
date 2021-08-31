@@ -31,17 +31,23 @@ srlab@roadrunner:~/anaconda2/bin$ kallisto \index -i ../transcriptome_v5.idx Pge
 [build] counting k-mers ... done.
 [build] target de Bruijn graph has 7419044 contigs and contains 374041821 k-mers 
 
-TRANS_DATA=~anaconda2/bin
+TRANS_DATA=~anaconda2
+
+KALLISTO_DIR=~/kallisto_results/kallisto_example
+
+mv transcriptome_v5.idx ~/anaconda2/bin
 
 srlab@roadrunner:~/anaconda2$ curl --remote-name http://owl.fish.washington.edu/nightingales/P_generosa/Trueseq-stranded-mRNA-libraries-GeoRNA8-H1-NR021_S5_L001_R1_001.fastq.gz
 
 srlab@roadrunner:~/anaconda2$ curl --remote-name http://owl.fish.washington.edu/nightingales/P_generosa/Trueseq-stranded-mRNA-libraries-GeoRNA8-H1-NR021_S5_L002_R2_001.fastq.gz
 
-kallisto quant --plaintext -i $TRANS_DATA/transciptome_v5.idx -o $TRANS_DATA/output_01 -b 100 Trueseq-stranded-mRNA-libraries-GeoRNA8-H1-NR021_S5_L001_R1_001.fastq.gz Trueseq-stranded-mRNA-libraries-GeoRNA8-H1-NR021_S5_L001_R2_001.fastq.gz
+kallisto quant --plaintext -i transcriptome_v5.idx -o output_01 -b 100 Trueseq-stranded-mRNA-libraries-GeoRNA8-H1-NR021_S5_L001_R1_001.fastq.gz Trueseq-stranded-mRNA-libraries-GeoRNA8-H1-NR021_S5_L001_R2_001.fastq.gz
 
-Error: kallisto index file not found /transciptome_v5.idx
-Error: could not create directory /output_01
-
+[quant] fragment length distribution will be estimated from the data
+[index] k-mer length: 31
+[index] number of targets: 1,363,959
+[index] number of k-mers: 374,041,821
+[index] number of equivalence classes: 4,408,869
 
 ```
 
