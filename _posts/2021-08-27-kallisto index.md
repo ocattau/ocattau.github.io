@@ -37,7 +37,10 @@ srlab@roadrunner:~/anaconda2$ curl --remote-name http://owl.fish.washington.edu/
 
 srlab@roadrunner:~/anaconda2$ curl --remote-name http://owl.fish.washington.edu/nightingales/P_generosa/Trueseq-stranded-mRNA-libraries-GeoRNA8-H1-NR021_S5_L002_R2_001.fastq.gz
 
-kallisto quant -i $TRANS_DATA/transciptome_v5.idx -o $TRANS_DATA/.kallisto_out -b 100 Trueseq-stranded-mRNA-libraries-GeoRNA8-H1-NR021_S5_L001_R1_001.fastq.gz Trueseq-stranded-mRNA-libraries-GeoRNA8-H1-NR021_S5_L001_R2_001.fastq.gz
+kallisto quant --plaintext -i $TRANS_DATA/transciptome_v5.idx -o $TRANS_DATA/output_01 -b 100 Trueseq-stranded-mRNA-libraries-GeoRNA8-H1-NR021_S5_L001_R1_001.fastq.gz Trueseq-stranded-mRNA-libraries-GeoRNA8-H1-NR021_S5_L001_R2_001.fastq.gz
+
+Error: kallisto index file not found /transciptome_v5.idx
+Error: could not create directory /output_01
 
 
 ```
