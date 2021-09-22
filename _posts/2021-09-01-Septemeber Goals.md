@@ -19,7 +19,7 @@ tags: c. gigas, pacific oysters, geoduck,  P. generosa
 
 *experimental work*
 
-- [ ] run test samples for CS assay (9.2.21)
+- [x] run test samples for CS assay (9.2.21)
 
 - [ ] run Matt George's CS samples for c. gigas ploidy temperature stess experiment 
 
