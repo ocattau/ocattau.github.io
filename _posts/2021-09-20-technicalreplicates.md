@@ -9,7 +9,7 @@ tags: P. generosa, citrate-synthase
 
 # Muscle Tissue sample 1, with 3 technical replicates
 
-![image_1](https://github.com/ocattau/ocattau.github.io/blob/master/photos/tech%20reps%20(muscle%20%231).png)
+![image_1](https://github.com/ocattau/ocattau.github.io/blob/master/assets/tech%20reps%20(muscle%20%231).png)
 
 # Muscle Tissue sample 2, with 4 technical replicates
 ![image_2](https://github.com/ocattau/ocattau.github.io/blob/master/photos/muscle%20tissue%20%232%20image.png)
