@@ -13,3 +13,17 @@ tags: P. generosa, citrate-synthase
 
 # Muscle Tissue sample 2, with 4 technical replicates
 ![image_2](https://github.com/ocattau/ocattau.github.io/blob/master/photos/muscle%20tissue%20%232%20image.png)
+
+# Gill Tissue sample 1, with 4 technical replicates
+![image_3](https://github.com/ocattau/ocattau.github.io/blob/master/assets/normal%20gill%20tech%20reps%209.20.21-1.png)
+
+# Gill Tissue sample 2 (three day room temperature) 
+![image_4](https://github.com/ocattau/ocattau.github.io/blob/master/assets/hot%20gill%20tech%20rep%209.20.21-1.png)
+
+# Mantle Tissue sample 1, with 4 technical replicates
+![image_5](https://github.com/ocattau/ocattau.github.io/blob/master/assets/mantle%20tissue%20tech%20reps%209.20.21-1.png)
+
+# Mantle Tissue sample 2 (three day room temperature)
+![image_6](https://github.com/ocattau/ocattau.github.io/blob/master/assets/hot%20mantle%20tissue%20tech%20reps%209.20.21-1.png)
+
+
