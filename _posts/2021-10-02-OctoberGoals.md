@@ -5,7 +5,6 @@ date: '2021-10-01'
 categories: updates, research
 tags: c. gigas, pacific oysters, geoduck,  P. generosa, SAFS
 ---
-# Goals for October
 
 ## experimental work
 
