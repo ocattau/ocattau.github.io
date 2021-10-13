@@ -8,7 +8,7 @@ tags: P. generosa, index, kallisto
 
 [link to Patcher Lab handbook](https://pachterlab.github.io/kallisto/starting)
 
-#Building an Index
+# Building an Index
 
 ```{bash}
 #load kallisto
@@ -18,7 +18,7 @@ cd /home/shared/kallisto/test
  /home/shared/kallisto/kallisto \
 index -i ~/data/transcriptome_v5.idx /home/olivia/x.fasta
 ```
-#Quantification
+# Quantification
 
 ```{bash}
 kallisto quant -i transcripts.idx -o output -b 100 reads_1.fastq.gz reads_2.fastq.gz
