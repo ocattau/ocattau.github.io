@@ -15,7 +15,7 @@ tags: c. gigas, pacific oysters, geoduck,  P. generosa, SAFS
 ## computational work
 *Tuesdays and Thursdays*
 
-- [ ] greate and QC index data on Raven, repeat until you feel comfortable doing it in your sleep
+- [x] greate and QC index data on Raven, repeat until you feel comfortable doing it in your sleep
 
 - [ ] annotate P. generosa genome looking for reproductive genes to "turn off"
 
