@@ -26,6 +26,18 @@ kallisto quant -i transcripts.idx -o output -b 100 reads_1.fastq.gz reads_2.fast
 run_info.json 
 #The run_info.json file contains a summary of the run, including data on the number targets used for quantification, and the number of bootstraps performed
 ```
+# Upload .idx file and output_1 file to Gannet
+
+```{bash}
+git status
+git add file_name
+git commit -m "note"
+git status
+rsync -avP ocattau@gannet.fish.washington.edu:/volume2/web/gigas
+#enter gannet PW
+#push to github, check file size to make sure you don't over commit! 
+```
+
 run_info.json file
 ```{}
 {
