@@ -8,7 +8,9 @@ tags: c. gigas, pacific oysters, geoduck,  P. generosa, SAFS
 
 ## experimental work
 
-- [ ] run BSA samples for CS assay (Wednesday 10.20.21?)
+- [ ] run BSA samples for CS assay (Friday 10.22.21?)
+
+- [ ] run technical replicates of test CS assay after doing BSA analysis for a final check
 
 - [ ] run Matt George's CS samples for c. gigas ploidy temperature stess experiment 
 
