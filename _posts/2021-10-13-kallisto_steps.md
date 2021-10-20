@@ -26,7 +26,8 @@ kallisto quant -i transcripts.idx -o output -b 100 reads_1.fastq.gz reads_2.fast
 run_info.json 
 #The run_info.json file contains a summary of the run, including data on the number targets used for quantification, and the number of bootstraps performed
 ```
-#run_info.json file
+run_info.json file
+```{}
 {
 	"n_targets": 1363959,
 	"n_bootstraps": 100,
@@ -40,3 +41,4 @@ run_info.json
 	"start_time": "Wed Oct 13 12:32:21 2021",
 	"call": "/home/shared/kallisto/kallisto quant -i /home/olivia/data/transcriptome_v5.idx -o /home/olivia/analyses/output_01 -b 100 /home/olivia/Trueseq-stranded-mRNA-libraries-GeoRNA8-H1-NR021_S5_L002_R1_001.fastq.gz /home/olivia/Trueseq-stranded-mRNA-libraries-GeoRNA8-H1-NR021_S5_L002_R2_001.fastq.gz"
 }
+```
