@@ -1,0 +1,10 @@
+---
+layout: post
+title: steps on how to count data from a kallisto index
+date: '2021-10-21'
+categories: kallisto, transcriptome, P. generosa, computation, index, QC
+tags: P. generosa, index, kallisto
+---
+
+[link to abundance data](https://raw.githubusercontent.com/ocattau/kallisto/main/analyses/output_01/abundance.tsv)
+
