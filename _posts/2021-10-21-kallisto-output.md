@@ -10,6 +10,12 @@ tags: P. generosa, index, kallisto
 
 [link to abundance data](https://raw.githubusercontent.com/ocattau/kallisto/main/analyses/output_01/abundance.tsv)
 
+```{r}
+abundance_data<-read.table(file="https://github.com/ocattau/kallisto/blob/main/analyses/output_01/abundance.tsv")
+head(abundance_data)
+
+```
+
 [link to run info json file](https://github.com/ocattau/kallisto/blob/main/analyses/output_01/run_info.json) 
 
 [link to index file](https://gannet.fish.washington.edu/gigas/data/transcriptome_v5.idx) 
