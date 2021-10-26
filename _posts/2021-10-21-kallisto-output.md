@@ -20,4 +20,11 @@ head(abundance_data)
 
 [link to index file](https://gannet.fish.washington.edu/gigas/data/transcriptome_v5.idx) 
 
-### Next step is to get count data on the abundance.tsv file. I am currently using [Patcher lab bustools](https://www.kallistobus.tools/applications/) for processing data
+### Next step is to get count data on the abundance.tsv file. Grab our Geoduck Transcriptome off of Mox
+
+```{bash}
+#login to Mox
+#find file location-->
+~/gscratch/srlab/blastdbs/ncbi-sp-v5_20210224/
+
+```
