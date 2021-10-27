@@ -14,6 +14,8 @@ tags: c. gigas, pacific oysters, geoduck,  P. generosa, SAFS
 
 - [ ] run Matt George's CS samples for c. gigas ploidy temperature stess experiment 
 
+- [ ] email faculty for potential committee members 
+
 ## computational work
 *Tuesdays and Thursdays*
 
