@@ -8,7 +8,7 @@ tags: c. gigas, pacific oysters, geoduck,  P. generosa, SAFS
 
 ## experimental work
 
-- [ ] run BSA samples for CS assay (Friday 10.22.21?)
+- [x] run BSA samples for CS assay (Friday 10.22.21?)
 
 - [ ] run technical replicates of test CS assay after doing BSA analysis for a final check
 
@@ -19,7 +19,7 @@ tags: c. gigas, pacific oysters, geoduck,  P. generosa, SAFS
 
 - [x] create and QC index data on Raven, repeat until you feel comfortable doing it in your sleep
 
-- [ ] learn Mox
+- [x] learn Mox
 
 - [ ] pull geoduck annotations off Mox
 
