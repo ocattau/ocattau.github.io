@@ -8,7 +8,7 @@ tags: P. generosa, index, kallisto
 
 ## Inspect P. generosa genome for candidate genes. First step is to extract output data: 
 
-[link to abundance data](https://raw.githubusercontent.com/ocattau/kallisto/main/analyses/output_01/abundance.tsv)
+[link to abundance data](https://githubusercontent.com/ocattau/kallisto/main/analyses/output_01/abundance.tsv)
 
 ```{r}
 abundance_data<-read.table(file="https://github.com/ocattau/kallisto/blob/main/analyses/output_01/abundance.tsv")
