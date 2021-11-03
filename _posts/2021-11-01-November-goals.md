@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Goals for October
+title: Goals for November 
 date: '2021-11-01'
 categories: updates, research
 tags: c. gigas, pacific oysters, geoduck,  P. generosa, SAFS
