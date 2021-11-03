@@ -16,6 +16,10 @@ tags: c. gigas, pacific oysters, geoduck,  P. generosa, SAFS
 
 ## computational work
 
+- [ ] organize lab notebook
+
+- [ ] organize GitHub repository(ies)
+
 - [ ] blast Pgenerosa_transcriptome_v5 aginst swissprot on Mox
 
 - [ ] pull geoduck annotations off Mox
