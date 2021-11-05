@@ -54,3 +54,6 @@ head(abundance_data)
 -outfmt 6
 
 ```
+
+# Output file to comapir to kallisto output 
+[link to P.generosa.tab](https://gannet.fish.washington.edu/gigas/Panopea-generosa-uniprot_blastx.tab) 
