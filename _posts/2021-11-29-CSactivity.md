@@ -25,7 +25,7 @@ tissue_label<-c("mantle_1", "mantle_2", "gill_1", "gill_2")
 protein_content<-as.table(cbind(tissue_label, protein_list))
 print(protein_content)
 ```
-# CS activity
+# CS activity (nmol/min/uL)
 ```{r}
 CS_Nov22<-read.csv(file="/Users/oliviacattau/Documents/data/CS_Nov22.csv")
 CS_Nov22<-CS_Nov22[!(CS_Nov22$Well=="B06" | CS_Nov22$Well=="B03"),]
@@ -62,4 +62,10 @@ time<-27 #min
 SampleCSactivity<-B/(time*V)*D
 time_0$CSactivity<-SampleCSactivity #(nmol/min/uL)
 ```
+|tissue_label|	OD (delta A)|	GSH nmol|	CSactivity (nmol/min/uL)|	protein (ug/mL)|	protein (ug/uL)|	relative CS activity (nmol/min/ug)|
+|---|---|---|---|---|---|---|
+|mantle_1|	0.116|	1.706|	1.26E-03|	493.89|	0.493888889|	2.56E-03|
+|mantle_2|	0.527|	10.337|	7.66E-03|	89.17|	0.089166667|	8.59E-02|
+|gill_1|	0.216|	3.806|	2.82E-03|	below range|	NA|	NA|
+|gill_2|	0.08|	0.95|	7.04E-04|	445.83|	0.445833333|	1.58E-03|
 
