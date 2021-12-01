@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Goals for Dece,ber 
+title: Goals for December 
 date: '2021-12-01'
 categories: updates, research
 tags: c. gigas, pacific oysters, geoduck,  P. generosa, SAFS
