@@ -8,7 +8,9 @@ tags: c. gigas, pacific oysters, geoduck,  P. generosa, SAFS
 
 ## experimental work
 
-- [ ] run Matt George's CS samples for c. gigas ploidy temperature stess experiment 
+- [x] analyze test data from 12.6.21 and make new standard curve (in range) 
+
+- [ ] run Matt George's CS samples for c. gigas ploidy temperature stess experiment (0/72 samples)
 
 - [ ] email faculty for potential committee members 
 
@@ -16,12 +18,10 @@ tags: c. gigas, pacific oysters, geoduck,  P. generosa, SAFS
 
 - [ ] organize lab notebook
 
-- [ ] organize GitHub repository(ies)
+- [x] organize GitHub repository(ies)
 
-- [ ] make table using output data from kallisto index with candidate genes and go terms
- 
-- [ ] annotate P. generosa genome looking for reproductive genes to "turn off"
+- [x] make table using output data from kallisto index with candidate genes and go terms
 
 - [ ] Work with Mac to set up geoduck larvae longevity trial 
 
-- [ ] Run a trial of molecular devlivery method with Gene Pulser Xcell Electroporation System
+- [ ] Run a trial of molecular devlivery method with Gene Pulser Xcell Electroporation System (Dec 14th 2021)
