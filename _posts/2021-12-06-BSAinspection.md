@@ -49,3 +49,7 @@ protein_results_vector<-protein_results_vector[-c(1)]
 weights<-c(12.1, 17.2) #mg
 volume<-c(350,350) #uL
 BSA_total<-cbind(protein_results_vector, volume, weights)
+```
+
+# BSA data from 12.14.21 trial
+![image](https://raw.githubusercontent.com/mattgeorgephd/NOPP-gigas-ploidy-temp/main/202107_EXP2/citrate_synthase/bsa%20data%2012.14.21.png)
