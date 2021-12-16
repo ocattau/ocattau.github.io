@@ -16,12 +16,10 @@ tags: c. gigas, pacific oysters, geoduck,  P. generosa, SAFS
 
 ## computational work
 
-- [ ] organize lab notebook
-
 - [x] organize GitHub repository(ies)
 
 - [x] make table using output data from kallisto index with candidate genes and go terms
 
-- [ ] Work with Mac to set up geoduck larvae longevity trial 
+- [ ] ~~Work with Mac to set up geoduck larvae longevity trial (rescheduled for January) ~~
 
-- [ ] Run a trial of molecular devlivery method with Gene Pulser Xcell Electroporation System (Dec 14th 2021)
+- [ ] ~~Run a trial of molecular devlivery method with Gene Pulser Xcell Electroporation System (Dec 14th 2021), unsuccessful spawn :(~~
