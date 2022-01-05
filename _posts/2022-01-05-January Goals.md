@@ -10,6 +10,8 @@ tags: c. gigas, pacific oysters, geoduck,  P. generosa, SAFS
 
 - [ ] run Matt George's CS samples for c. gigas ploidy temperature stess experiment (0/72 samples)
 
+- [ ] set up first commitee meeting (Joth, Steven, Carolyn, Olivia) 
+
 ## computational work
 
 - [ ] Work with Mac to set up geoduck larvae longevity trial (rescheduled for January)
