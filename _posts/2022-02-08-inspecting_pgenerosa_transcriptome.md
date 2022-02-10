@@ -46,3 +46,34 @@ pgenerosa_proteins<-left_join(generosa_counts, uniprot_all_reviewed, by ="identi
 write.csv(pgenerosa_proteins, file="/Users/oliviacattau/Documents/GitHub/code/characterize_larval_transciptome/pgenerosa_proteins_2_10_2022.tab")
 ```
 [link to protein table](https://gannet.fish.washington.edu/gigas/data/p.generosa/#:~:text=pgenerosa_proteins_2..%3E)
+
+# Sixth Step: Filter by tissue type 
+
+```{r}
+pgenerosa_heart<-pgenerosa_proteins %>% count(heart) #makes a table so you can see how many reads have 0 tpm, make a proportion
+heart_zero<-max(pgenerosa_heart$n)
+pgenerosa_gonad<-pgenerosa_proteins %>% count(gonad)
+gonad_zero<-max(pgenerosa_gonad$n)
+pgenerosa_ctenidia<-pgenerosa_proteins %>% count(ctenidia)
+ctenidia_zero<-max(pgenerosa_ctenidia$n)
+pgenerosa_larvae<-pgenerosa_proteins %>% count(larvae)
+larvae_zero<-max(pgenerosa_larvae$n)
+pgenerosa_juv_amb<-pgenerosa_proteins %>% count(juv_amb)
+juv_amb_zero<-max(pgenerosa_juv_amb$n)
+pgenerosa_juv_sl<-pgenerosa_proteins %>% count(juv_sl) #not sure what this is, maybe low OA exposure?
+juv_sl_zero<-max(pgenerosa_juv_sl$n)
+#proportion of zero reads to all reads 
+all<-length(pgenerosa_proteins$target_id)
+heart_expressed<-(1-(heart_zero/all))*100 #31.09%
+gonad_expressed<-(1-(gonad_zero/all))*100 #18.45%
+ctenidia_expressed<-(1-(ctenidia_zero/all))*100 #33.36%
+larvae_expressed<-(1-(larvae_zero/all))*100 #36.29%
+juv_amb_expressed<-(1-(juv_amb_zero/all))*100 #51.95%
+juv_sl_expressed<-(1-(juv_sl_zero/all))*100 #52.20%
+gene_expression<-matrix(c(heart_expressed, gonad_expressed, ctenidia_expressed, larvae_expressed, juv_amb_expressed, juv_sl_expressed), ncol=1, nrow=6, byrow=TRUE)
+rownames(gene_expression)<-c("heart", "gonad", "ctenidia", "larvae", "juv amb", "juv sl")
+colnames(gene_expression)<-c("% genes expressed by tissue type")
+genes_expressed_by_tissue<-as.data.frame(gene_expression)
+write.csv(na_expressed, file="/Users/oliviacattau/Documents/GitHub/code/characterize_larval_transciptome/percent_genes_expressed_by_tissue.tab")
+```
+[link to % genes expressed by tissue type table](https://gannet.fish.washington.edu/gigas/data/p.generosa/percent_genes_expressed_by_tissue.tab)
