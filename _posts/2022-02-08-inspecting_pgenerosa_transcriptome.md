@@ -38,36 +38,11 @@ generosa_counts$identifiers<-sub("\\.\\d+$", "", generosa_counts$identifiers) #r
 #loaded into gannet and pulled down
 uniprot_all_reviewed<-read.csv(file="https://gannet.fish.washington.edu/gigas/uniprot-reviewed_yes.tab", sep='\t', header=TRUE)
 ```
-# Fifth Step: Join tables and calculate % NA per tissue type
-[link to % error expressed table](https://gannet.fish.washington.edu/gigas/data/p.generosa/percent_na_expressed_2_8_2022.tab)
+# Fifth Step: Left Join Tables by identifier
+
 ```{r}
 names(uniprot_all_reviewed)[1]<-"identifiers" #renamed
-pgenerosa_proteins<-full_join(generosa_counts, uniprot_all_reviewed, by ="identifiers")
-pgenerosa_heart<-pgenerosa_proteins %>% count(heart)
-heart_na<-max(pgenerosa_heart$n)
-pgenerosa_gonad<-pgenerosa_proteins %>% count(gonad)
-gonad_na<-max(pgenerosa_gonad$n)
-pgenerosa_ctenidia<-pgenerosa_proteins %>% count(ctenidia)
-ctenidia_na<-max(pgenerosa_ctenidia$n)
-pgenerosa_larvae<-pgenerosa_proteins %>% count(larvae)
-larvae_na<-max(pgenerosa_larvae$n)
-pgenerosa_juv_amb<-pgenerosa_proteins %>% count(juv_amb)
-juv_amb_na<-max(pgenerosa_juv_amb$n)
-pgenerosa_juv_sl<-pgenerosa_proteins %>% count(juv_sl) #not sure what this is, maybe low OA exposure?
-juv_sl_na<-max(pgenerosa_juv_sl$n)
-#from table results
-all<-length(pgenerosa_proteins$target_id)
-heart_na<-(heart_na/all)*100
-gonad_na<-(gonad_na/all)*100
-ctenidia_na<-(ctenidia_na/all)*100
-larvae_na<-(larvae_na/all)*100
-juv_amb_na<-(juv_amb_na/all)*100
-juv_sl_na<-(juv_sl_na/all)*100
-na_expression<-matrix(c(heart_na, gonad_na, ctenidia_na, larvae_na, juv_amb_na, juv_sl_na), ncol=1, nrow=6, byrow=TRUE)
-rownames(na_expression)<-c("% na heart", "% na gonad", "% na ctenidia", "% na larvae", "% na juv amb", "% na juv sl")
-na_expressed<-as.data.frame(na_expression)
-write.csv(na_expressed, file="x")#put this is a place you remember
-
+pgenerosa_proteins<-left_join(generosa_counts, uniprot_all_reviewed, by ="identifiers")
+write.csv(pgenerosa_proteins, file="/Users/oliviacattau/Documents/GitHub/code/characterize_larval_transciptome/pgenerosa_proteins_2_10_2022.tab")
 ```
-
-
+[link to protein table](https://gannet.fish.washington.edu/gigas/data/p.generosa/#:~:text=pgenerosa_proteins_2..%3E)
