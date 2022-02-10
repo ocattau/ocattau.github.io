@@ -77,3 +77,12 @@ genes_expressed_by_tissue<-as.data.frame(gene_expression)
 write.csv(na_expressed, file="/Users/oliviacattau/Documents/GitHub/code/characterize_larval_transciptome/percent_genes_expressed_by_tissue.tab")
 ```
 [link to % genes expressed by tissue type table](https://gannet.fish.washington.edu/gigas/data/p.generosa/percent_genes_expressed_by_tissue.tab)
+
+| tissue type              | % genes expressed     |
+|-----------------|------------------|
+| % na heart    | 49.2119711063927 |
+| % na gonad    | 58.2458574746108 |
+| % na ctenidia | 47.593970985959  |
+| % na larvae   | 45.4995248106442 |
+| % na juv amb  | 34.3153738810796 |
+| % na juv sl   | 34.1372367804416 |
