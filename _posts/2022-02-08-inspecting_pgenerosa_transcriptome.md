@@ -78,11 +78,11 @@ write.csv(na_expressed, file="/Users/oliviacattau/Documents/GitHub/code/characte
 ```
 [link to % genes expressed by tissue type table](https://gannet.fish.washington.edu/gigas/data/p.generosa/percent_genes_expressed_by_tissue.tab)
 
-| tissue type              | % genes expressed     |
-|-----------------|------------------|
-| % na heart    | 49.2119711063927 |
-| % na gonad    | 58.2458574746108 |
-| % na ctenidia | 47.593970985959  |
-| % na larvae   | 45.4995248106442 |
-| % na juv amb  | 34.3153738810796 |
-| % na juv sl   | 34.1372367804416 |
+|tissue type|% genes expressed|
+|---|---|
+|heart|31.0952162051792|
+|gonad|18.4463022715492|
+|ctenidia|33.3606801963989|
+|larvae|36.2932463512466|
+|juv amb|51.9528812816221|
+|juv sl|52.2023022686166|
