@@ -15,3 +15,5 @@ tags: c. gigas, pacific oysters, geoduck,  P. generosa, SAFS
 ## Computational Work
 - [ ] do WSGNA analysis on geoduck transciptome project
 - [ ] finish UpSetPLots
+- [ ] make geoduck transciptome database (searchable)
+- [ ] organize girhub repository "code" 
