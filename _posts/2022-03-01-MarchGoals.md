@@ -19,4 +19,4 @@ tags: c. gigas, pacific oysters, geoduck,  P. generosa, SAFS
 - [ ] make geoduck transciptome database (searchable)
 - [x] organize github repository "code" for publication (or copy repository) 
 - [ ] Generate Circos Figure for Geoduck in Raven
-- [ ] test code for UpSet plot
+- [x] test code for UpSet plot
