@@ -12,6 +12,7 @@ tags: c. gigas, pacific oysters, geoduck,  P. generosa, SAFS
 - [x] order 1 more CS kit
 - [ ] keep testing flourescent scope
 - [x] optimize CS protocol for reducing pipette tips 
+- [ ] Run BSA and CS on 72 of Matt's samples
 
 ## Computational Work
 - [ ] do WSGNA analysis on geoduck transciptome project
