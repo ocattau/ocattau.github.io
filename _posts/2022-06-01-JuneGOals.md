@@ -7,7 +7,7 @@ tags: c. gigas, pacific oysters, geoduck,  P. generosa, SAFS
 ---
 
 # SAFS Work
-~~1. SAFS fellowship ~~
+~~SAFS fellowship~~ 
 2. CICOES 2022-23 Graduate Student Fellowship (June 30)
 3. Write proposal and send to comittee members for approval 
 
