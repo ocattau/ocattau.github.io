@@ -23,3 +23,4 @@ tags: c. gigas, pacific oysters, geoduck,  P. generosa, SAFS
 # Experimental Work
 1. redo any CS samples that need to be re-run
 2. take dry weights of left over tissue samples (for Carolyn) 
+3. ~~Run final 2 plates for FISH 541~~
